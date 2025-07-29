@@ -1,13 +1,13 @@
-⚡ Load & Solar Generation Forecasting using Time Series Analysis (ARIMA & SARIMA)
+# ⚡ Load & Solar Generation Forecasting using Time Series Analysis (ARIMA & SARIMA)
 This project uses ARIMA and SARIMA time series models to forecast Italy’s hourly electricity load and solar generation.
 It covers EDA, stationarity checks, seasonal analysis, model building, and forecasting to compare model performance.
 
-📂 Dataset
+#  📂 Dataset
 Source: Italy 2016 Load & Solar Generation Data
 
-Frequency: Hourly readings
+# Frequency: Hourly readings
 
-Features:
+# Features:
 
 utc_timestamp → Date & time (UTC)
 
@@ -15,7 +15,7 @@ IT_load_new → Electricity load in MW
 
 IT_solar_generation → Solar generation in MW
 
-🛠️ Project Workflow
+# 🛠️ Project Workflow
 1️⃣ Install Dependencies
 bash
 Copy
@@ -52,7 +52,7 @@ Compare RMSE for ARIMA & SARIMA
 
 SARIMA captures seasonality better
 
-🧠 Model Summary
+# 🧠 Model Summary
 Load Forecasting:
 
 ARIMA (2, 0, 2) → RMSE: 7714.95
@@ -65,16 +65,16 @@ ARIMA (2, 0, 7) → RMSE: 2484.25
 
 SARIMA (1, 0, 1, 24) → RMSE: 1379.21
 
-✅ SARIMA performs better for both series.
+# ✅ SARIMA performs better for both series.
 
-📊 Results
+# 📊 Results
 SARIMA captures daily seasonality (m=24)
 
 Lower RMSE values compared to ARIMA
 
 Forecasts closely follow actual trends in test data
 
-💻 Tech Stack
+# 💻 Tech Stack
 Python
 
 Pandas, Matplotlib, Seaborn
@@ -83,10 +83,10 @@ Statsmodels
 
 Scikit-learn
 
-📁 License
+# 📁 License
 Educational use only. Dataset belongs to its respective provider.
 
-👤 Author
+# 👤 Author
 Sowjanya Kiran
 📧 usowjanyakiran@gmail.com
 🌐 [GitHub](https://github.com/SowjanyaKiran/Solar_Time_Series_sowjanya/)
